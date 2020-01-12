@@ -5,23 +5,31 @@
   <meta name="description" content="the creative outlet">
   <meta name="author" content="Nicholas Hom">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="/css/home.css" type='text/css' rel="stylesheet">
+  <link href="css/home.css" type='text/css' rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <div class="navbar">
-    <div class="navbar_wrap">
-      <a href="index.html">Work</a>
-      <a href="about.html">About</a>
-      <a href="Resume.pdf">Resume</a>
+    <div class="nav_container">
+      <a href="index.html">work</a>
+      <a href="about.html">about</a>
+      <a href="Resume.pdf">resume</a>
     </div>
   </div>
   <div class="landing">
-    <img src="/img/creativeoutlet.svg" alt="">
+    <img src="img/CreativeOutlet.svg" alt="" id="logoimg">
     <h1>Hello!!</h1>
-    <p>I created this page to display some of the creative work that I've undertaken. I want to used this space to challenge myself for continuous growth and development.</p>
+    <p id="landingp">I created this page to display some of the creative work that I've undertaken. I want to used this space to challenge myself for continuous growth and development.</p>
   </div>
   <div class="tiles">
+    <div class="tilecard"></div>
+    <div class="tilecard" id="centercard">
+      <h2>Here are some examples of my work :)</h2>
+    </div>
+    <div class="tilecard"> </div>
+    <div class="tilecard"> </div>
     <div class="tilecard"> </div>
   </div>
 </body>
