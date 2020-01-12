@@ -26,7 +26,7 @@
   </div>
   <div class="tiles">
     <div class="tilecard" id="centercard">
-      <h2>Here are some examples of my work :)</h2>
+      <h1>:)</h1>
     </div>
     <div class="tilecard">
       <img src="img/rush.png" alt="">
