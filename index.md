@@ -75,7 +75,7 @@
             <div class="info">Art Class</div>
           </div>
           <div class="linkbox">
-            <a href="img/art portfolio.pdf"><p>Go to Project</p></a>
+            <a href="img/artportfolio.pdf"><p>Go to Project</p></a>
           </div>
         </div>
       </div>
