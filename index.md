@@ -75,7 +75,7 @@
             <div class="info">Art Class</div>
           </div>
           <div class="linkbox">
-            <a href="img/artportfolio.pdf"><p>Go to Project</p></a>
+            <a href="artportfolio.pdf"><p>Go to Project</p></a>
           </div>
         </div>
       </div>
@@ -90,7 +90,7 @@
             <div class="info">Graphic Design</div>
           </div>
           <div class="linkbox">
-            <a href="img/shhs.pdf"><p>Go to Project</p></a>
+            <a href="shhs.pdf"><p>Go to Project</p></a>
           </div>
         </div>
       </div>
@@ -105,7 +105,7 @@
             <div class="info">Geofilter Design</div>
           </div>
           <div class="linkbox">
-            <a href="img/geos.pdf"><p>Go to Project</p></a>
+            <a href="geos.pdf"><p>Go to Project</p></a>
           </div>
         </div>
       </div>
@@ -135,7 +135,7 @@
             <div class="info">Rush Flyer, T-Shirt, Social Media Design</div>
           </div>
           <div class="linkbox">
-            <a href="img/dspflyers.pdf"><p>Go to Project</p></a>
+            <a href="dspflyers.pdf"><p>Go to Project</p></a>
           </div>
         </div>
       </div>
@@ -165,7 +165,7 @@
             <div class="info">Branding</div>
           </div>
           <div class="linkbox">
-            <a href="img/dve.pdf"><p>Go to Project</p></a>
+            <a href="dve.pdf"><p>Go to Project</p></a>
           </div>
         </div>
       </div>
