@@ -37,7 +37,7 @@
     </div>
     <div class="tilecard">
       <div class="content">
-        <img src="/img/uc.svg" alt="" class="tileimg">
+        <img src="img/uc.svg" alt="" class="tileimg">
         <div class="infocard">
           <div class="project">
             UConsulting
@@ -52,7 +52,7 @@
     </div>
     <div class="tilecard">
       <div class="content">
-        <img src="/img/vf.svg" alt="" class="tileimg">
+        <img src="img/vf.svg" alt="" class="tileimg">
         <div class="infocard">
           <div class="project">
             Visual Fanatic
@@ -67,7 +67,7 @@
     </div>
     <div class="tilecard">
       <div class="content">
-        <img src="/img/shhs.svg" alt="" class="tileimg">
+        <img src="img/shhs.svg" alt="" class="tileimg">
         <div class="infocard">
           <div class="project">
             Stuart Hall HS
@@ -82,7 +82,7 @@
     </div>
     <div class="tilecard">
       <div class="content">
-        <img src="/img/stuco.svg" alt="" class="tileimg">
+        <img src="img/stuco.svg" alt="" class="tileimg">
         <div class="infocard">
           <div class="project">
             Student Council
@@ -97,7 +97,7 @@
     </div>
     <div class="tilecard long">
       <div class="content">
-        <img src="/img/sc.svg" alt="" class="tileimg">
+        <img src="img/sc.svg" alt="" class="tileimg">
         <div class="infocard">
           <div class="project">
             Snapchat
@@ -112,7 +112,7 @@
     </div>
     <div class="tilecard">
       <div class="content">
-        <img src="/img/rt.svg" alt="" class="tileimg">
+        <img src="img/rt.svg" alt="" class="tileimg">
         <div class="infocard">
           <div class="project">
             The Roundtable
@@ -127,7 +127,7 @@
     </div>
     <div class="tilecard big_square">
       <div class="content">
-        <img src="/img/dsp.svg" alt="" class="tileimg">
+        <img src="img/dsp.svg" alt="" class="tileimg">
         <div class="infocard">
           <div class="project">
             UCLA Delta Sigma Pi
@@ -142,7 +142,7 @@
     </div>
     <div class="tilecard">
       <div class="content">
-        <img src="/img/co.svg" alt="" class="tileimg">
+        <img src="img/co.svg" alt="" class="tileimg">
         <div class="infocard">
           <div class="project">
             Creative Outlet
@@ -157,7 +157,7 @@
     </div>
     <div class="tilecard long">
       <div class="content">
-        <img src="/img/dve.svg" alt="" class="tileimg">
+        <img src="img/dve.svg" alt="" class="tileimg">
         <div class="infocard">
           <div class="project">
             Dreamvision E-Sports
