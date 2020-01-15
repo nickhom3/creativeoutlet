@@ -1,4 +1,10 @@
-<html lang="en">
+<html>
+      <head>
+        <meta charset="UTF-8">
+        <title>index.md</title>
+      </head>
+      <body>
+        <html lang="en">
 <head>
   <meta charset="utf-8">
   <title>the creative outlet</title>
@@ -24,7 +30,7 @@
     <div class="landing_container">
       <img src="img/CreativeOutlet.svg" alt="" id="logoimg">
       <h1>Hello!!</h1>
-      <p id="landingp">I created this page to display some of the creative work that I've undertaken (Hi Creative Labs peeps). Sorry about the PDF's :(</p>
+      <p id="landingp">I created this page to display some of the creative work that I&#39;ve undertaken (Hi Creative Labs peeps). Sorry about the PDF&#39;s :(</p>
     </div>
   </div>
   <div class="tiles">
@@ -37,75 +43,49 @@
     </div>
     <div class="tilecard">
       <div class="content">
-        <img src="/img/uc.svg" alt="" class="tileimg">
+        <img src="img/uc.svg" alt="" class="tileimg">
       </div>
     </div>
     <div class="tilecard">
       <div class="content">
-        <img src="/img/vf.svg" alt="" class="tileimg">
+        <img src="img/vf.svg" alt="" class="tileimg">
       </div>
     </div>
     <div class="tilecard">
       <div class="content">
-        <img src="/img/shhs.svg" alt="" class="tileimg">
+        <img src="img/shhs.svg" alt="" class="tileimg">
       </div>
     </div>
     <div class="tilecard">
       <div class="content">
-        <img src="/img/stuco.svg" alt="" class="tileimg">
+        <img src="img/stuco.svg" alt="" class="tileimg">
       </div>
     </div>
     <div class="tilecard long">
       <div class="content">
-        <img src="/img/sc.svg" alt="" class="tileimg">
+        <img src="img/sc.svg" alt="" class="tileimg">
       </div>
     </div>
     <div class="tilecard">
       <div class="content">
-        <img src="/img/kels.svg" alt="" class="tileimg">
+        <img src="img/kels.svg" alt="" class="tileimg">
       </div>
     </div>
     <div class="tilecard big_square">
       <div class="content">
-        <img src="/img/dsp.svg" alt="" class="tileimg">
+        <img src="img/dsp.svg" alt="" class="tileimg">
       </div>
     </div>
     <div class="tilecard">
       <div class="content">
-        <img src="/img/co.svg" alt="" class="tileimg">
+        <img src="img/co.svg" alt="" class="tileimg">
       </div>
     </div>
     <div class="tilecard long">
       <div class="content">
-        <img src="/img/dve.svg" alt="" class="tileimg">
+        <img src="img/dve.svg" alt="" class="tileimg">
       </div>
     </div>
-
-    </div>
-    <!--<div class="tilecard" id="centercard">
-        <h1>:)</h1>
-      </div>
-      <div class="tilecard">
-        <img src="img/rush.png" alt="">
-      </div>
-      <div class="tilecard">
-        <img src="img/seal.png" alt="">
-      </div>
-      <div class="tilecard">
-        <img src="img/knightsathletics.png" alt="">
-      </div>
-      <div class="tilecard">
-        <img src="img/dve.png" alt="">
-      </div>
-      <div class="tilecard">
-        <img src="img/rt.png" alt="">
-      </div>
-      <div class="tilecard">
-        <img src="img/vf.png" alt="">
-      </div>
-      <div class="tilecard">
-        <img src="img/uc.png" alt="">
-    </div>-->
-
+  </div>
 </body>
 </html>
