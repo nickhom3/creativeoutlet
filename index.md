@@ -2,7 +2,7 @@
 <head>
   <meta charset="utf-8">
   <title>the creative outlet</title>
-  <meta name="description" content="the creative outlet">
+  <meta name="description" content="Creative Outlet">
   <meta name="author" content="Nicholas Hom">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="img/favicon.ico">
@@ -38,74 +38,138 @@
     <div class="tilecard">
       <div class="content">
         <img src="/img/uc.svg" alt="" class="tileimg">
+        <div class="infocard">
+          <div class="project">
+            UConsulting
+            <hr>
+            <div class="info">Website Redesign</div>
+          </div>
+          <div class="linkbox">
+            <a href="https://uconsulting.club"><p>Go to site</p></a>
+          </div>
+        </div>
       </div>
     </div>
     <div class="tilecard">
       <div class="content">
         <img src="/img/vf.svg" alt="" class="tileimg">
+        <div class="infocard">
+          <div class="project">
+            Visual Fanatic
+            <hr>
+            <div class="info">Website / Infographic Design</div>
+          </div>
+          <div class="linkbox">
+            <a href="https://uconsulting.club"><p>Go to Project</p></a>
+          </div>
+        </div>
       </div>
     </div>
     <div class="tilecard">
       <div class="content">
         <img src="/img/shhs.svg" alt="" class="tileimg">
+        <div class="infocard">
+          <div class="project">
+            Stuart Hall HS
+            <hr>
+            <div class="info">Branding</div>
+          </div>
+          <div class="linkbox">
+            <a href="https://uconsulting.club"><p>Go to Project</p></a>
+          </div>
+        </div>
       </div>
     </div>
     <div class="tilecard">
       <div class="content">
         <img src="/img/stuco.svg" alt="" class="tileimg">
+        <div class="infocard">
+          <div class="project">
+            Student Council
+            <hr>
+            <div class="info">Graphic Design</div>
+          </div>
+          <div class="linkbox">
+            <a href="https://uconsulting.club"><p>Go to Project</p></a>
+          </div>
+        </div>
       </div>
     </div>
     <div class="tilecard long">
       <div class="content">
         <img src="/img/sc.svg" alt="" class="tileimg">
+        <div class="infocard">
+          <div class="project">
+            Snapchat
+            <hr>
+            <div class="info">Geofilter Design</div>
+          </div>
+          <div class="linkbox">
+            <a href="https://uconsulting.club"><p>Go to Project</p></a>
+          </div>
+        </div>
       </div>
     </div>
     <div class="tilecard">
       <div class="content">
-        <img src="/img/kels.svg" alt="" class="tileimg">
+        <img src="/img/rt.svg" alt="" class="tileimg">
+        <div class="infocard">
+          <div class="project">
+            The Roundtable
+            <hr>
+            <div class="info">Graphic Design (Volumes 10-12)</div>
+          </div>
+          <div class="linkbox">
+            <a href="https://issuu.com/shhs_roundtable"><p>Go to Project</p></a>
+          </div>
+        </div>
       </div>
     </div>
     <div class="tilecard big_square">
       <div class="content">
         <img src="/img/dsp.svg" alt="" class="tileimg">
+        <div class="infocard">
+          <div class="project">
+            UCLA Delta Sigma Pi
+            <hr>
+            <div class="info">Rush Flyer, T-Shirt, Social Media Design</div>
+          </div>
+          <div class="linkbox">
+            <a href="https://uconsulting.club"><p>Go to Project</p></a>
+          </div>
+        </div>
       </div>
     </div>
     <div class="tilecard">
       <div class="content">
         <img src="/img/co.svg" alt="" class="tileimg">
+        <div class="infocard">
+          <div class="project">
+            Creative Outlet
+            <hr>
+            <div class="info">Website Design, HTML/CSS</div>
+          </div>
+          <div class="linkbox">
+            <a href="https://uconsulting.club"><p>Go to Project</p></a>
+          </div>
+        </div>
       </div>
     </div>
     <div class="tilecard long">
       <div class="content">
         <img src="/img/dve.svg" alt="" class="tileimg">
+        <div class="infocard">
+          <div class="project">
+            Dreamvision E-Sports
+            <hr>
+            <div class="info">Branding</div>
+          </div>
+          <div class="linkbox">
+            <a href="https://uconsulting.club"><p>Go to Project</p></a>
+          </div>
+        </div>
       </div>
     </div>
-
     </div>
-    <!--<div class="tilecard" id="centercard">
-        <h1>:)</h1>
-      </div>
-      <div class="tilecard">
-        <img src="img/rush.png" alt="">
-      </div>
-      <div class="tilecard">
-        <img src="img/seal.png" alt="">
-      </div>
-      <div class="tilecard">
-        <img src="img/knightsathletics.png" alt="">
-      </div>
-      <div class="tilecard">
-        <img src="img/dve.png" alt="">
-      </div>
-      <div class="tilecard">
-        <img src="img/rt.png" alt="">
-      </div>
-      <div class="tilecard">
-        <img src="img/vf.png" alt="">
-      </div>
-      <div class="tilecard">
-        <img src="img/uc.png" alt="">
-    </div>-->
-
-</body>
+  </body>
 </html>
