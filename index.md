@@ -5,10 +5,11 @@
   <meta name="description" content="the creative outlet">
   <meta name="author" content="Nicholas Hom">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="img/favicon.ico">
   <link href="css/home.css" type='text/css' rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700&display=swap" rel="stylesheet">
-  <script src="js/script.js"></script>
+
 </head>
 
 <body>
@@ -20,35 +21,91 @@
     </div>
   </div>
   <div class="landing">
-    <img src="img/CreativeOutlet.svg" alt="" id="logoimg">
-    <h1>Hello!!</h1>
-    <p id="landingp">I created this page to display some of the creative work that I've undertaken. I want to use this space to challenge myself for continuous growth and development.</p>
+    <div class="landing_container">
+      <img src="img/CreativeOutlet.svg" alt="" id="logoimg">
+      <h1>Hello!!</h1>
+      <p id="landingp">I created this page to display some of the creative work that I've undertaken (Hi Creative Labs peeps). Sorry about the PDF's :(</p>
+    </div>
   </div>
   <div class="tiles">
-    <div class="tilecard" id="centercard">
-      <h1>:)</h1>
+    <div class="tilecard wordcard">
+      <div class="content">
+        <h2>
+          Here are some examples of my work.
+        </h2>
+      </div>
     </div>
     <div class="tilecard">
-      <img src="img/rush.png" alt="">
+      <div class="content">
+        <img src="/img/uc.svg" alt="" class="tileimg">
+      </div>
     </div>
     <div class="tilecard">
-      <img src="img/seal.png" alt="">
+      <div class="content">
+        <img src="/img/vf.svg" alt="" class="tileimg">
+      </div>
     </div>
     <div class="tilecard">
-      <img src="img/knightsathletics.png" alt="">
+      <div class="content">
+        <img src="/img/shhs.svg" alt="" class="tileimg">
+      </div>
     </div>
     <div class="tilecard">
-      <img src="img/dve.png" alt="">
+      <div class="content">
+        <img src="/img/stuco.svg" alt="" class="tileimg">
+      </div>
+    </div>
+    <div class="tilecard long">
+      <div class="content">
+        <img src="/img/sc.svg" alt="" class="tileimg">
+      </div>
     </div>
     <div class="tilecard">
-      <img src="img/rt.png" alt="">
+      <div class="content">
+        <img src="/img/kels.svg" alt="" class="tileimg">
+      </div>
+    </div>
+    <div class="tilecard big_square">
+      <div class="content">
+        <img src="/img/dsp.svg" alt="" class="tileimg">
+      </div>
     </div>
     <div class="tilecard">
-      <img src="img/vf.png" alt="">
+      <div class="content">
+        <img src="/img/co.svg" alt="" class="tileimg">
+      </div>
     </div>
-    <div class="tilecard">
-      <img src="img/uc.png" alt="">
+    <div class="tilecard long">
+      <div class="content">
+        <img src="/img/dve.svg" alt="" class="tileimg">
+      </div>
     </div>
-  </div>
+
+    </div>
+    <!--<div class="tilecard" id="centercard">
+        <h1>:)</h1>
+      </div>
+      <div class="tilecard">
+        <img src="img/rush.png" alt="">
+      </div>
+      <div class="tilecard">
+        <img src="img/seal.png" alt="">
+      </div>
+      <div class="tilecard">
+        <img src="img/knightsathletics.png" alt="">
+      </div>
+      <div class="tilecard">
+        <img src="img/dve.png" alt="">
+      </div>
+      <div class="tilecard">
+        <img src="img/rt.png" alt="">
+      </div>
+      <div class="tilecard">
+        <img src="img/vf.png" alt="">
+      </div>
+      <div class="tilecard">
+        <img src="img/uc.png" alt="">
+    </div>-->
+
 </body>
 </html>

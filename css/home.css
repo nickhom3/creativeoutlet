@@ -10,9 +10,10 @@ body {
 
 .navbar {
   height: 80px;
-  width: 80%;
+  width: 100%;
   background-color: #fff;
   top: 0;
+  left: 0;
   position: fixed;
   z-index: 1;
 }
@@ -23,7 +24,6 @@ body {
   width: 100%;
   height: 80px;
   margin: 30px 0;
-
 }
 
 .nav_container a {
@@ -36,18 +36,19 @@ body {
   transition-duration: .5s;
 }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 992px) {
   .nav_container {
     text-align: right;
+    padding: 0 10%;
   }
 }
 
 .nav_container a:hover {
-  color: #000;
+  color: #244189;
 }
 
 #logoimg {
-  width: 40%;
+  width: 80%;
   height: auto;
   position: relative;
   left: 50%;
@@ -55,61 +56,244 @@ body {
   transform: translate(-50%);
 }
 
+@media screen and (min-width: 992px) {
+  #logoimg {
+    width: 40%;
+  }
+}
+
 .landing {
-  display: inline-block;
+  display: flex;
   position: relative;
   height: 70vh;
   top: 50vh;
   transform: translate(0, -50%);
+  width: 100%;
+  align-items: center;
 }
 
-h1, p {
+.landing_container {
+  width: 100%
+}
+
+h1, h2, p {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
 }
 
 #landingp {
-  padding: 0 10vw;;
+  padding: 0 10vw;
 }
 
 .tiles {
   display: grid;
-  margin-top: 70px;
-  grid-template-columns: 1 1fr;
-  grid-gap: 20px;
-}
-
-@media only screen and (min-width: 600px) {
-  .tiles {
-    grid-template-columns: repeat(3, 1fr);
-  }
-  #centercard {
-    grid-column: 1 / span 3;
-  }
-}
-
-#centercard {
-  padding: 0 20px;
-  flex-grow: 1;
-  background-color: initial;
-  border-bottom: 4px solid #406eff;
-  border-radius: 0;
+  position: relative;
+  top: 20vh;
+  grid-template-columns: repeat(auto-fill, minmax(29%, 1fr));
+  grid-gap: 5px;
+  margin-bottom: 20vh;
 }
 
 .tilecard {
   background-color: #406eff;
   flex-grow: 1;
   justify-content: space-between;
-  border-radius: 10px;
+  position: relative;
   /*Img styles*/
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  transition: all .2s ease-in-out;
 }
 
+.tilecard::before {
+  content: '';
+  display: block;
+  padding-top: 100%;
+}
+
+.tilecard .content {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.tilecard img {
+  margin: 0 auto;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  padding: 7%;
+}
+
+.content h2 {
+  text-align: left;
+  color: #fff;
+  line-height: 1.1em;
+  font-weight: 600;
+}
 .tilecard img {
   flex-shrink: 0;
   min-height: 100%;
   max-width: 100%;
 }
+.tilecard:hover {
+  background-color: #fff;
+}
+
+.infocard {
+  opacity: 0;
+  position: absolute;
+  padding: 10%;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  transition: all .2s ease-in-out;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 3px solid #406eff;
+}
+
+.long .infocard {
+  padding: 5%;
+}
+
+.big_square .infocard {
+  padding: 5%;
+}
+
+.project {
+  font-weight: 600;
+  font-size: 1.25em;
+}
+
+.linkbox {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 50px;
+  border: 2px solid #406eff;
+  color: #406eff;
+  margin-bottom: 10%;
+  font-weight: 600;
+  width: 60%;
+  margin: 0 auto 10% auto;
+  transition: all .2s ease-in-out;
+}
+
+.linkbox p {
+  font-family: 'Ubuntu Mono', monospace;
+  transition: all .2s ease-in-out;
+}
+
+.linkbox a {
+  text-decoration: none;
+  color: #406eff;
+  transition: all .2s ease-in-out;
+  display: inline-block;
+  width: 100%;
+  border-radius: 50px;
+}
+
+.info {
+  font-weight: 300;
+  font-size: .75em;
+}
+
+.tiles {
+  grid-template-columns: repeat(auto-fill, minmax(49%, 1fr));
+}
+#centercard {
+  grid-column: 1 / span 3;
+}
+
+hr {
+  border: 1px solid #406eff;
+  border-radius: 10px;
+  margin: 6px auto;
+  width: 30%;
+}
+.wordcard {
+  background-color: #244189;
+  font-size: .75em;
+}
+.wordcard:hover {
+  background-color: #244189;
+}
+
+.linkbox:hover {
+  background-color: #406eff;
+}
+.linkbox:hover p {
+  color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  .tiles {
+    grid-template-columns: repeat(auto-fill, minmax(29%, 1fr));
+  }
+  #centercard {
+    grid-column: 1 / span 3;
+  }
+  .wordcard {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .tiles {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  #centercard {
+    grid-column: 1 / span 5;
+  }
+  .long {
+    grid-column: span 2;
+  }
+  .long::before {
+    padding-top: 50%;
+  }
+  .big_square {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+  .big_square::before {
+    padding-top: 50%;
+  }
+  .tall {
+    grid-row: span 2;
+  }
+  .infocard {
+    border: 2.5px solid #406eff;
+  }
+  .wordcard {
+    font-size: 1em;
+  }
+  .linkbox {
+    border-width: 2px;
+    margin: initial;
+    width: 100%;
+  }
+  .linkbox p {
+    text-align: center;
+  }
+}
+
+.tilecard:hover .infocard {
+  opacity: 1;
+}
+/*#centercard {
+  padding: 0 20px;
+  flex-grow: 1;
+  background-color: initial;
+  border: initial;
+  border-bottom: 4px solid #406eff;
+  border-radius: 0;
+}*/
