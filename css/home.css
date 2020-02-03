@@ -91,7 +91,7 @@ h1, h2, p {
   top: 20vh;
   grid-template-columns: repeat(auto-fill, minmax(29%, 1fr));
   grid-gap: 5px;
-  margin-bottom: 20vh;
+  margin: 0 10vw 20vh 10vw;;
 }
 
 .tilecard {
@@ -221,11 +221,13 @@ hr {
   width: 30%;
 }
 .wordcard {
-  background-color: #244189;
+  background-color: #fff;
   font-size: .75em;
+  color: #406eff;
+
 }
 .wordcard:hover {
-  background-color: #244189;
+  background-color: #406eff;
 }
 
 .linkbox:hover {
@@ -246,6 +248,17 @@ hr {
     font-size: 1em;
   }
 }
+.maincontent {
+  top: 0;
+  display: flex;
+}
+.imgbox {
+  max-width: 30%;
+  height: auto;
+  display: inline-block;
+  margin-right: 5%;
+}
+
 
 @media only screen and (min-width: 992px) {
   .tiles {
