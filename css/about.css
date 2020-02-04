@@ -401,12 +401,16 @@ h3 {
   background-color: #F9F9F9;
 }
 
-.tablerow h3 {
+.biobox h3 {
+  text-align: center;
+}
+
+.biobox li {
   text-align: center;
 }
 
 .tablerow p, li {
-  text-align: center;
+  text-align: left;
   font-weight: 300;
 }
 
