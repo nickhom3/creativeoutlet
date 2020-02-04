@@ -11,7 +11,7 @@
   <meta name="description" content="the creative outlet">
   <meta name="author" content="Nicholas Hom">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="shortcut icon" href="img/favicon.ico">
   <link href="css/about.css" type='text/css' rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700&display=swap" rel="stylesheet">
@@ -273,20 +273,6 @@
           </div>
           <div class="linkbox">
             <a href="ArtPortfolio.pdf"><p>Go to Project</p></a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="tilecard">
-      <div class="content">
-        <img src="img/stuco.svg" alt="" class="tileimg">
-        <div class="infocard">
-          <div class="project">
-            Student Council
-
-          </div>
-          <div class="linkbox">
-            <a href="shhs.pdf"><p>Go to Project</p></a>
           </div>
         </div>
       </div>
