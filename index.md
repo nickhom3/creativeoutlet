@@ -1,7 +1,7 @@
 <html>
       <head>
         <meta charset="UTF-8">
-        <title>index.md</title>
+        <title>Nick Hom</title>
       </head>
       <body>
         <html lang="en">
