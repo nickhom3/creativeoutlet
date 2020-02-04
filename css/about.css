@@ -33,7 +33,7 @@ body {
   text-decoration: none;
   text-align: center;
   margin-left: 14px;
-  transition-duration: .5s;
+  transition-duration: .2s;
 }
 
 html {
@@ -91,6 +91,11 @@ h1, p {
 
 .linkbox p {
   font-family: 'Ubuntu Mono', monospace;
+}
+
+#resume {
+  font-size: .9em;
+  transition: all .2s ease-in-out;
 }
 
 .linkbox a {
@@ -156,7 +161,7 @@ h1, p {
 
 /* Tiles */
 
-h1, h2, p {
+h1, h2, p, li {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
 }
@@ -375,7 +380,7 @@ h3 {
   margin-top: 0;
 }
 
-.leftbox p {
+.leftbox p, li {
   text-align: left;
   font-size: 1em;
   margin: 0;
@@ -387,11 +392,21 @@ h3 {
 
 .tablerow {
   display: flex;
-    margin-top: 1%;
+  margin-top: 1%;
+  padding: 2%;
+  border-radius: 5px;
 }
 
-.tablerow p {
-  text-align: left;
+.grey {
+  background-color: #F9F9F9;
+}
+
+.tablerow h3 {
+  text-align: center;
+}
+
+.tablerow p, li {
+  text-align: center;
   font-weight: 300;
 }
 
@@ -402,7 +417,7 @@ h3 {
 
 .leftbox {
   min-width: 30%;
-  padding: 0 12% 0 0;
+  padding: auto;
 }
 .date {
   font-weight: 300;
@@ -411,8 +426,45 @@ h3 {
 
 .leftbox img {
   border-radius: 5px;
+  max-width: 70%;
+  vertical-align: middle;
 }
 
 .container {
   margin-top: 3%;
+}
+
+.rightbox p {
+  line-height: 1.5em;
+}
+
+/* Bio box */
+
+.biobox {
+  padding: 0;
+  display: flex;
+}
+
+.flexbox {
+  flex-grow: 1;
+  flex-basis: 0;
+  margin-right: 3%;
+  padding: 2% 0 2% 0;
+}
+
+.biobox .grey {
+  padding: 2%;
+  border-radius: 5px;
+}
+
+.last {
+  margin-right: 0;
+  flex-basis: .1;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-block-start: 1em;
 }
