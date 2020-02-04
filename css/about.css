@@ -128,7 +128,7 @@ h1, p {
     display: flex;
   }
   .imgbox {
-    max-width: 30%;
+    min-width: 30%;
     height: auto;
     display: inline-block;
     margin-right: 5%;
